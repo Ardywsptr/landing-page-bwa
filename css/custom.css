@@ -47,3 +47,20 @@ body {
 .navbar-nav .nav-item .nav-link {
     color: #2F281E;
 }
+
+
+/* Breakpoints and responsive */
+
+@media only screen and (max-width: 991px){
+    .btn-primary, .btn-secondary{
+        margin-top: 10px;
+    }
+
+    .navbar-nav .ms-2, .navbar-nav .ms-5{
+        margin-left: 0 !important;
+    }
+
+    /* .ms-auto{
+        align-items: center;
+    } */
+}
