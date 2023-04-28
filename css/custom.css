@@ -5,7 +5,7 @@ body {
 }
 
 .btn-primary {
-    background-color: #FF9900;
+    background: #FF9900;
     border: none;
     padding: 15px 40px;
     font-size: 16px;
@@ -13,15 +13,37 @@ body {
 }
 
 .btn-primary:hover {
-    background-color: #de8f18;
+    background: #de8f18;
 }
 
-.herobwa h1{
+.btn-secondary {
+    background: none;
+    border: 1px solid #bcd0e5;
+    padding: 15px 40px;
+    font-size: 16px;
+    font-weight: bold;
+    color: #173A56;
+}
+
+.btn-secondary:hover {
+    background: none;
+    border: 1px solid #99a4ae;
+    color: #173A56;
+}
+
+.herobwa h1,
+.navbar-brand p {
     font-family: 'Poppins', sans-serif;
     font-weight: 700;
+    color: #2F281E;
 }
 
-.herobwa p{
+.herobwa p {
     font-family: 'Poppins', sans-serif;
     font-weight: 400;
+    color: #2F281E;
+}
+
+.navbar-nav .nav-item .nav-link {
+    color: #2F281E;
 }
